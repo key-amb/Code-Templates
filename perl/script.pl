@@ -13,7 +13,10 @@ use Log::Minimal env_debug => 'FOO_DEBUG';
 
 my $Debug = 0;
 
-MAIN: {
+main() if __FILE__ eq $0;
+exit 0;
+
+sub main {
     my %arg;
     GetOptions(
         \%arg,
