@@ -11,9 +11,7 @@ use Pod::Usage;
 use Data::Validator;
 use Log::Minimal env_debug => 'FOO_DEBUG';
 
-my $INTERVAL;
-
-my $Debug     = 0;
+my $Debug = 0;
 
 MAIN: {
     my %arg;
@@ -69,8 +67,8 @@ This script is ...
 
 =item B<-d>, B<--debug>
 
-increase debug level.
--d -d more verbosely.
+Increases debug level.
+Put "-d -d" for more verbosity.
 
 =back
 
