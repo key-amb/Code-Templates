@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use 5.010_000;
+use 5.010_001;
 use utf8;
 
 use Getopt::Long qw(:config posix_default no_ignore_case no_ignore_case_always);
