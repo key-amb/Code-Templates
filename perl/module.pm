@@ -13,7 +13,7 @@ use Class::Accessor::Lite (
 use Smart::Args;
 use Log::Minimal env_debug => 'MS_DEBUG';
 
-our $VERSION = '0.01';
+use version; our $VERSION = 'v0.1.0';
 
 sub new {
     args(
