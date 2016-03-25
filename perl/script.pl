@@ -13,8 +13,11 @@ use Log::Minimal env_debug => 'FOO_DEBUG';
 
 my $Debug = 0;
 
-main() if __FILE__ eq $0;
-exit 0;
+if (__FILE__ eq $0) {
+    main()
+} else {
+    return 1;
+}
 
 sub main {
     my %arg;
@@ -77,7 +80,8 @@ Put "-d -d" for more verbosity.
 
 =head1 SEE ALSO
 
-L<Foo::Bar|Foo::Bar>,
+L<Foo::Bar>,
+L<Title|http://example.com/>,
 ls(1), cd(1)
 
 =head1 AUTHORS
