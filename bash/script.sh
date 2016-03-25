@@ -28,4 +28,3 @@ YASUTAKE Kiyoshi E<lt>yasutake.kiyoshi@gmail.comE<gt>
 
 __EOF__
 
-# vi: set ts=2 sw=2 sts=0 et ft=sh fenc=utf-8 :
